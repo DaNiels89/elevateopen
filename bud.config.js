@@ -32,10 +32,11 @@ module.exports = async (app) => {
      *
      * This should be the URL you use to visit your local development server.
      */
-    .proxy('http://test.test')
+    .proxy('http://elevateopen.test')
 
     /**
      * Development URL to be used in the browser.
      */
-    .serve('http://127.0.0.1:8000');
+    .serve('http://0.0.0.0:3000');
+    // .serve('http://127.0.0.1:8000');
 };
