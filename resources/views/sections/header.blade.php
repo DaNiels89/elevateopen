@@ -1,12 +1,14 @@
 <header class="banner">
-  <div class="stickybar">
-    <p class="stickybar__text">Enjoy a festive, golf-centered summer day. There are still some spots left!</p>
-    <button class="stickybar__button">Download info kit</button>
+  <div class="container">
+    <p class="[ top-bar__text ]">Enjoy a festive, golf-centered summer day. There are still some spots left!</p>
+    <div class="top-bar__div">
+      <button class="[ top-bar__button ]">Download info kit</button>
+    </div>
   </div>
-  
-  <!-- <a class="brand" href="{{ home_url('/') }}">
+
+  <!-- <a class="brand" href="{{ home_url('/') }}"> -->
     {{-- {!! $siteName !!} --}}
-  </a> -->
+  <!-- </a> -->
 
   {{-- @if (has_nav_menu('primary_navigation'))
     <nav class="nav-primary" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">

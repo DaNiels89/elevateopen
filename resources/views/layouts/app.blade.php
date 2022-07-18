@@ -1,4 +1,4 @@
-<a class="sr-only focus:not-sr-only" href="#main">
+<a class="skip-content-link" href="#course">
   {{ __('Skip to content') }}
 </a>
 
@@ -6,7 +6,6 @@
 
   <main id="main" class="main">
     @yield('content')
-    Temp text
   </main>
 
   @hasSection('sidebar')
