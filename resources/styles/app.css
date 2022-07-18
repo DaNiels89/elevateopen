@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header" "main" "footer";
+  min-height: 125vh;
+}
+
+#app + header {
+  grid-area: "header";
+}
+
+#app + main {
+  grid-area: "main";
+}
+
+#app + footer {
+  grid-area: "footer";
+}
+
+@font-face {
+  font-family: 'Janson Text LT Std';
+  src: url('../fonts/Janson/JansonTextLTStd-Roman.eot');
+  src: url('../fonts/Janson/JansonTextLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Janson/JansonTextLTStd-Roman.woff2') format('woff2'),
+    url('../fonts/Janson/JansonTextLTStd-Roman.woff') format('woff'),
+    url('../fonts/Janson/JansonTextLTStd-Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Termina;
+  src: url('../fonts/Termina/Termina-Bold.eot');
+  src: url('../fonts/Termina/Termina-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Termina/Termina-Bold.woff2') format('woff2'),
+    url('../fonts/Termina/Termina-Bold.woff') format('woff'),
+    url('../fonts/Termina/Termina-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Termina;
+  src: url('../fonts/Termina/Termina-Medium.eot');
+  src: url('../fonts/Termina/Termina-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Termina/Termina-Medium.woff2') format('woff2'),
+    url('../fonts/Termina/Termina-Medium.woff') format('woff'),
+    url('../fonts/Termina/Termina-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Termina;
+  src: url('../fonts/Termina/Termina-Regular.eot');
+  src: url('../fonts/Termina/Termina-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Termina/Termina-Regular.woff2') format('woff2'),
+    url('../fonts/Termina/Termina-Regular.woff') format('woff'),
+    url('../fonts/Termina/Termina-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --ff-primary: Termina;
+  --ff-secondary: 'Janson Text LT Std';
+
+  --clr-ligth: 0, 0%, 100%;
+  --clr-dark: 0, 0%, 0%;
+  --clr-orange: 27, 98%, 56%;
+  --clr-orange-light: 28 91% 95%;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: hsl(var(--clr-dark));
+}
+
+/* Temperary don't display skip content link - accessibility */
+a[href="#main"] {
+  position: relative;
+  display: none;
+}
+
+h1 {
+  font-family: var(--ff-secondary);
+}
+
+/* Header */
+.stickybar {
+  /* position: fixed;
+  top: 0; */
+  width: 100%;
+  background-color: hsl(var(--clr-orange-light));
+}
+
+.banner {
+  height: 100%;
+}
+/* End header */

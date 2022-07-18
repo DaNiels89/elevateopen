@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Janson Text LT Std';
+  src: url('Janson/JansonTextLTStd-Roman.eot');
+  src: url('Janson/JansonTextLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+    url('Janson/JansonTextLTStd-Roman.woff2') format('woff2'),
+    url('Janson/JansonTextLTStd-Roman.woff') format('woff'),
+    url('Janson/JansonTextLTStd-Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Termina;
+  src: url('Termina/Termina-Bold.eot');
+  src: url('Termina/Termina-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Termina/Termina-Bold.woff2') format('woff2'),
+    url('Termina/Termina-Bold.woff') format('woff'),
+    url('Termina/Termina-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Termina;
+  src: url('Termina/Termina-Medium.eot');
+  src: url('Termina/Termina-Medium.eot?#iefix') format('embedded-opentype'),
+    url('Termina/Termina-Medium.woff2') format('woff2'),
+    url('Termina/Termina-Medium.woff') format('woff'),
+    url('Termina/Termina-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Termina;
+  src: url('Termina/Termina-Regular.eot');
+  src: url('Termina/Termina-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Termina/Termina-Regular.woff2') format('woff2'),
+    url('Termina/Termina-Regular.woff') format('woff'),
+    url('Termina/Termina-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
