@@ -124,7 +124,6 @@ h6 {
 h1 {
   font-size: clamp(2rem, 5vw + 1rem, 4.5rem);
   max-width: 15ch;
-  color: yellow;
 }
 
 h2 {
@@ -278,6 +277,20 @@ section:not(:first-child) {
   font-weight: 500;
   color: hsl(var(--clr-blue));
   text-transform: uppercase;
+}
+
+/* Tournament */
+.tournament-main-title {
+  display: none;
+}
+
+/* From 960px */
+@media only screen and (min-width: 768px) {
+  .tournament__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--layout-gap-lg);
+  }
 }
 
 /* From 960px */

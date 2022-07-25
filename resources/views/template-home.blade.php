@@ -89,26 +89,28 @@
 
     <section id="tournament" class="tournament">
       <div class="container">
-        <h2 class="timetable_main_title">Tournament</h2>
+        <h2 class="tournament-main-title">Tournament</h2>
 
-        <div class="tournamant-card">
-          <h2 class="tournament-card__title">Golf.</h2>
-          <p class="tournament-card__text">The golf tournament consists of two 9-hole shotguns-one in the morning, one in the afternoon-and a longest drive challenge in the evening. During the shotguns, golfers are able to traverse the Championship Course and participate in longest drive, neary, hole-in-one and beat-the-pro competitions.</p>
-        </div>
+        <div class="tournament__grid">
+          <div class="tournamant-card">
+            <h2 class="tournament-card__title">Golf.</h2>
+            <p class="tournament-card__text">The golf tournament consists of two 9-hole shotguns-one in the morning, one in the afternoon-and a longest drive challenge in the evening. During the shotguns, golfers are able to traverse the Championship Course and participate in longest drive, neary, hole-in-one and beat-the-pro competitions.</p>
+          </div>
 
-        <div class="tournamant-card">
-          <h2 class="tournament-card__title">Connect.</h2>
-          <p class="tournament-card__text">During your time at the event, you're bound to bump into people who share a similar career story. Meet like-minded professionals in the digital marketing and e-commerce industry and take the opportunity to connect with entrepreneurs, industry leaders, innovators and creative athletes.</p>
-        </div>
+          <div class="tournamant-card">
+            <h2 class="tournament-card__title">Connect.</h2>
+            <p class="tournament-card__text">During your time at the event, you're bound to bump into people who share a similar career story. Meet like-minded professionals in the digital marketing and e-commerce industry and take the opportunity to connect with entrepreneurs, industry leaders, innovators and creative athletes.</p>
+          </div>
 
-        <div class="tournamant-card">
-          <h2 class="tournament-card__title">Win.</h2>
-          <p class="tournament-card__text">Golf professionals have the ability to enter the prestigious Longest Drive Challenge and win prize money up to €3,000. An exceptional display of skill to behold, all while enjoying your drinks. Only PGA professionals will be able to participate in this competition—one of many to come.</p>
-        </div>
+          <div class="tournamant-card">
+            <h2 class="tournament-card__title">Win.</h2>
+            <p class="tournament-card__text">Golf professionals have the ability to enter the prestigious Longest Drive Challenge and win prize money up to €3,000. An exceptional display of skill to behold, all while enjoying your drinks. Only PGA professionals will be able to participate in this competition—one of many to come.</p>
+          </div>
 
-        <div class="tournamant-card">
-          <h2 class="tournament-card__title">Donate.</h2>
-          <p class="tournament-card__text">All proceeds go to the Princess Máxima Center. With your contribution, you can help the center achieve their goal: to cure every child with cancer, with optimal quality of life.</p>
+          <div class="tournamant-card">
+            <h2 class="tournament-card__title">Donate.</h2>
+            <p class="tournament-card__text">All proceeds go to the Princess Máxima Center. With your contribution, you can help the center achieve their goal: to cure every child with cancer, with optimal quality of life.</p>
+          </div>
         </div>
 
         <div>100 spots</div>
